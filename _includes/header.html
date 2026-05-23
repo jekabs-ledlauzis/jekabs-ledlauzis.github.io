@@ -1,0 +1,41 @@
+<section id="header" class="wrapper">
+    <!-- Nav -->
+    <nav id="nav">
+        <ul>
+            <!-- Home -->
+            <li class="current"><a href="{{ '/' | relative_url }}">Home</a></li>
+            <!-- Dropdown -->
+            <li>
+                <a href="{{ '/pages/services' }}">Services</a>
+                <ul>
+                    <li><a href="{{ '/services/service1' }}">Service1</a></li>
+                    <li><a href="{{ '/services/service2' }}">Service2</a></li>
+                    <li><a href="{{ '/services/service3' }}">Service3</a></li>
+                    <li><a href="{{ '/services/service4' }}">Service4</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ '/pages/projects' }}">Past Projects</a></li>
+            <li><a href="{{ '/pages/about' }}">About</a></li>
+            <li><a href="{{ '/pages/contact' }}">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Logo -->
+    <div id="logo">
+        <h1>{{page.title}}</a></h1>
+    </div>
+
+</section>
+
+<!-- Nav
+<nav>
+    <strong><a href="{{ '/' | relative_url }}">{{ site.title }}</a></strong>
+    <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/pages/services' }}">Services</a>
+        <a href="{{ '/pages/projects' }}">Past Projects</a>
+        <a href="{{ '/pages/about' }}">About</a>
+        <a href="{{ '/pages/contact' }}">Contact</a>
+    </div>
+</nav>
+ -->
